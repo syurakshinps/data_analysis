@@ -1,0 +1,48 @@
+I have data in csv. The example is below
+
+"TO_CHAR(O.DATETIME,'YYYY-MM-DDHH24')","OPERATION_NAME","COUNT(O.OPERATION_NAME)"
+"2023-04-09 17","operation0",3
+"2023-04-09 17","operation1",15
+"2023-04-09 17","operation2",14
+"2023-04-09 17","operation3",20
+"2023-04-09 17","operation4",9
+"2023-04-09 17","operation5",15
+"2023-04-09 17","operation6",17
+"2023-04-09 17","operation7",11
+"2023-04-09 17","operation8",10
+"2023-04-09 17","operation9",5
+"2023-04-10 17","operation0",7
+"2023-04-10 17","operation1",17
+"2023-04-10 17","operation2",14
+"2023-04-10 17","operation3",7
+"2023-04-10 17","operation4",13
+"2023-04-10 17","operation5",13
+"2023-04-10 17","operation6",16
+"2023-04-10 17","operation7",12
+"2023-04-10 17","operation8",14
+"2023-04-10 17","operation9",7
+"2023-04-11 17","operation0",7
+"2023-04-11 17","operation1",12
+"2023-04-11 17","operation2",14
+"2023-04-11 17","operation3",20
+"2023-04-11 17","operation4",18
+"2023-04-11 17","operation5",12
+"2023-04-11 17","operation6",14
+"2023-04-11 17","operation7",15
+"2023-04-11 17","operation8",15
+"2023-04-11 17","operation9",6
+"2023-04-12 17","operation0",4
+"2023-04-12 17","operation1",10
+"2023-04-12 17","operation2",19
+"2023-04-12 17","operation3",9
+"2023-04-12 17","operation4",18
+
+I want you to write a program for me in python to analyze the data and find the "maximal hour" which is a specific hour of a specific date when the sum of operation_name is maximum.
+
+I will use Pycharm.
+
+Write the code and give me step by step instructions
+
+
+------
+additionally write a function to output the operations in the max hour with their intensity (count) in this hour
